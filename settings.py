@@ -1,5 +1,5 @@
 # ======== RUN / GENERAL ========
-SHUFFLE_WALLETS   = True
+SHUFFLE_WALLETS   = False
 RETRY             = 3
 
 MAX_GWEI          = 15
@@ -29,7 +29,7 @@ TXS_COUNT = {
     'OpenOceanSwap' : [0, 1],
     'MaverickSwap'  : [0, 1],
     'KyberSwap'     : [0, 1],
-    'Aerodrome'     : [0, 1],   # ← збігається з імпортом вище
+    'Aerodrome'     : [1, 2],   # ← збігається з імпортом вище
     'AlienSwap'     : [0, 0],
     'InfusionSwap'  : [0, 0],
 
